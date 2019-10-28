@@ -7,6 +7,7 @@ Group:          Graphical desktop/GNOME
 URL:            https://appcenter.elementary.io/com.github.bcedu.vgrive/
 Source0:        https://github.com/bcedu/VGrive/archive/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:  cmake
 BuildRequires:  meson
 BuildRequires:  ninja
 BuildRequires:  vala
