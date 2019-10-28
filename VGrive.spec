@@ -10,6 +10,12 @@ Source0:        https://github.com/bcedu/VGrive/archive/%{version}/%{name}-%{ver
 BuildRequires:  meson
 BuildRequires:  ninja
 BuildRequires:  vala
+BuildRequires:  pkgconfig(gio-2.0)
+BuildRequires:  pkgconfig(gio-unix-2.0)
+BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(gmodule-2.0)
+BuildRequires:  pkgconfig(gobject-2.0)
+BuildRequires:  pkgconfig(gthread-2.0)
 
 %description
 VGrive is a client (back-end and front-end) for Google Drive made in Vala. 
