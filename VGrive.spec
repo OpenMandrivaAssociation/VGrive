@@ -18,6 +18,7 @@ BuildRequires:  pkgconfig(gmodule-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(granite)
 
 %description
 VGrive is a client (back-end and front-end) for Google Drive made in Vala. 
