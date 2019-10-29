@@ -6,6 +6,7 @@ License:        GPLv3
 Group:          Graphical desktop/GNOME
 URL:            https://appcenter.elementary.io/com.github.bcedu.vgrive/
 Source0:        https://github.com/bcedu/VGrive/archive/%{version}/%{name}-%{version}.tar.gz
+Patch0:         VGrive-no-unity-openmandriva.patch
 
 BuildRequires:  cmake
 BuildRequires:  meson
@@ -27,6 +28,7 @@ VGrive is a client (back-end and front-end) for Google Drive made in Vala.
 Automatically detects changes in local and remote files and syncs them.
 
 %prep
+%autopatch -p0
 %setup -q
 
 %build
