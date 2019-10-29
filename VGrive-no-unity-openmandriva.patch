@@ -1,0 +1,14 @@
+Index: src/meson.build
+===================================================================
+--- src/meson.build
++++ src/meson.build	2019-10-29 15:07:02.346384534 +0100
+@@ -24,8 +24,7 @@
+     dependency('granite'),
+     dependency('gee-0.8'),
+     dependency('json-glib-1.0'),
+-    dependency('libsoup-2.4'),
+-    dependency('unity')
++    dependency('libsoup-2.4')
+ ]
+ 
+ 
